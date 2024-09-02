@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 02/09/2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: Mohamed Athif Rahuman J
+###  ROLL NO :212223220058
+###  DEPARTMENT: B.Tech IT
 
 
 
@@ -87,13 +87,20 @@ The main features of LPC2148 include the following.
 
 ## STM 32 CUBE PROGRAM :
 
+![359201841-fe429cf8-4915-42ea-93ae-2f07ab99a3df](https://github.com/user-attachments/assets/f721cf47-8d32-4fb7-b3b6-b8b10bfe6b98)
+
 
 
 
 
 ## OUTPUT  :
  
- 
+ ```
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+HAL_Delay(1000);
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+HAL_Delay(1000);
+```
  
  
 ## Result :
